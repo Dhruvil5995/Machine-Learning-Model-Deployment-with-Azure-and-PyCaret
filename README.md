@@ -45,12 +45,14 @@ In this section, we delve into the process of retrieving a previously deployed m
 
 **2. Establishing Connection to Azure Blob Storage:**
 - You are required to provide your Azure Blob Storage connection string and specify the container and model names. This establishes the connection to your Azure storage account.
-Model Retrieval:
+
+**3. Model Retrieval:**
 - The model previously deployed to Azure Blob Storage is downloaded to your local environment using the provided connection details.
 
-**3. New Data Preparation and Prediction:**
+**4. New Data Preparation and Prediction:**
 - We demonstrate how to prepare new data for prediction using PyCaret and utilize the retrieved model to make predictions on this fresh dataset.
-Usage
+
+**Usage**
 - To replicate the model development and retrieval process, follow the detailed instructions provided in each section of the code. Be sure to replace the Azure connection string and container/model names with your specific Azure Blob Storage information.
 
 **Prerequisites**
@@ -65,4 +67,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 **Acknowledgments**
 We extend our gratitude to the creators of PyCaret, an invaluable low-code machine learning library, and Microsoft Azure's Azure Blob Storage for providing a robust solution for cloud-based object storage.
 
-Feel free to adapt and extend the code provided to meet your unique machine learning model deployment needs. Should you encounter any issues or wish to suggest improvements, please don't hesitate to create an issue or submit a pull request!
+Feel free to adapt and extend the code provided to meet your unique machine-learning model deployment needs. Should you encounter any issues or wish to suggest improvements, please don't hesitate to create an issue or submit a pull request!
